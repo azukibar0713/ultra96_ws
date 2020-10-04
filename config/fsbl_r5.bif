@@ -1,0 +1,8 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[fsbl_config]r5_single
+	[bootloader]F:\work_xilinx\ws03\fsbl_r5\Debug\fsbl_r5.elf
+	[destination_device = pl]F:\work_xilinx\ws03\hw\design_1_wrapper.bit
+	[destination_cpu = r5-0]F:\work_xilinx\ws03\ultra96_only_app_cmake\build\main\app.elf
+}
